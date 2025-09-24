@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="IMAGES/logo.png" alt="" class="logo">
+                <ul id = "sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#header">Publications</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#medtechdiv">Med Tech</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars " onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>MBBS 3rd Year</p>
+                <h1>Nameste, I am <span>Jimi</span> <br> from IOM.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- .....about....... -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMAGES/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p id="aboutmedetails">I come from a humble background in a remote village where access to education and healthcare was scarce. Despite these challenges, I remained determined to pursue learning and build a better future for myself and my community.
+
+At the age of five, I enrolled in a local government school. Our class was small, and reaching school meant walking nearly three hours each day through rugged Himalayan terrain. With limited resources, few academic opportunities, and the burden of household responsibilities, education was never easy. Still, I persevered and eventually graduated with one of the highest GPAs ever recorded in my region.
+
+Recognizing my academic achievements, I was awarded a full scholarship to pursue higher secondary education in Biology at a reputable college in the capital. The transition to a new environment and English-medium education was challenging, but through dedication and hard work, I adapted and continued to perform well academically.
+
+Given my family’s financial limitations, pursuing medical education would not have been possible without external support. Driven by the dream of becoming a doctor and serving underserved communities, I prepared rigorously for the national scholarship entrance and was fortunate to earn a fully funded seat at one of Nepal’s leading medical institutions.
+
+Now in my third year of medical school, I am deeply committed to expanding my medical knowledge and engaging in clinical research and innovation. My long-term goal is to bridge the healthcare gap in marginalized areas and contribute meaningfully to improving access to quality medical services. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('educations')">Educations</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Medical/Surgical</span><br>Advanced Medical and Surgical Knowledge and Skills</li>
+                             <li><span>Web Development and AI</span><br>Interested and skilled in Knowledge of AI and Web development</li>
+                            <li><span>Leaderships</span><br>Associated with various organization.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-2025</span><br>IT Editor for PSRN-SC, IOM EB</li>
+                             <li><span>2023-Now</span><br>Web Editor and IT Admin of Tamang Doctor's Society Nepal</li>
+                            <li><span>2024-Now</span><br>Medical Representative IOM for Global Surgical Simulation Network(GSSN)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="educations">
+                        <ul>
+                            <li><span>SEE</span><br>Shree Chandika Secondary School, Baruwa Sindhupalchowk</li>
+                             <li><span>+2 Biology/Full Scholarship</span><br>Ambition College, Mid Baneswor</li>
+                            <li><span>MBBS/Govt. Full Scholarship</span><br>Maharajgunj Medical Campus,IOM,TUTH</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ........Publications......... -->
+     <!-- <div class="Publications">
+        <h1>My Publications</h1> -->
+
+ <!-- <div class="pub-container">
+    <ul class="pub-list">
+      <li>
+        <div class="pub-title">The Impact of Diabetes on Rural Communities in Nepal</div>
+        <div class="pub-authors">Syangbo J., Sharma P., Lama R.</div>
+        <div class="pub-journal">Published in <em>Journal of Global Health</em>, 2024</div>
+        <a href="#" target="_blank">🔗 View Publication</a>
+      </li>
+
+      <li>
+        <div class="pub-title">Advancements in Surgical Simulation for Low-Resource Settings</div>
+        <div class="pub-authors">Syangbo J., Tamang S., Rai K.</div>
+        <div class="pub-journal">Published in <em>BMJ Innovations</em>, 2025</div>
+        <a href="#" target="_blank">🔗 View Publication</a>
+      </li>
+
+      <li>
+        <div class="pub-title">Healthcare Access Challenges in Himalayan Regions</div>
+        <div class="pub-authors">Syangbo J., Gurung M., Shrestha L.</div>
+        <div class="pub-journal">Published in <em>Lancet Regional Health – Southeast Asia</em>, 2023</div>
+        <a href="#" target="_blank">🔗 View Publication</a>
+      </li>
+    </ul>
+  </div>
+     </div> -->
+    <!-- ................ Resources,.......... -->
+     <div id="resources">
+        <div class="container">
+            <h1 class="sub-title text-middle">Resources</h1>
+            <div class="services-list">
+                <div>
+                    <img src="Resources/University_of_Washington_seal.svg.png" alt="" class="resource-photo">
+                    <h2>Advanced Physical Diagnosis</h2>
+                    <p>By University of Washington Department of Medicine</p>
+                    <a href="https://depts.washington.edu/physdx/index.html"  target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <img src="Resources/TDSLogo.png" alt="" class="resource-photo">
+                    <h2>Tamang Doctor's Society Nepal</h2>
+                    <p>Bridging Healthcare Gaps, Uplifting Communities</p>
+                    <a href="https://tamangdoctors.org/"  target="_blank">Visit Website</a>
+                </div>
+                <div>
+                    <img src="Resources/BMI+levels-640w.webp" alt="" class="resource-photo">
+                    <h2>BMI Calculator</h2>
+                    <p>calculate your BMI</p>
+                    <a href="https://meejeeio.github.io/BMI-CALCULATOR/"  target="_blank">Click</a>
+                </div>
+                <div>
+                    <img src="Resources/morse coder.jpeg" alt="" class="resource-photo">
+                    <h2>Morse Decoder</h2>
+                    <p>Decode Everything here</p>
+                    <a href="https://meejeeio.github.io/MORSE-DECODER/"  target="_blank">Decode</a>
+                </div>
+                <div>
+                    <img src="Resources/cochrane.png" alt="" class="resource-photo">
+                    <h2>Interactive Learning</h2>
+                    <p>Cochrane Interactive Learning: Conducting an Intervention Review</p>
+                    <a href="https://www.cochrane.org/learn/courses-and-resources/interactive-learning"  target="_blank">Start New</a>
+                </div>
+                <div>
+                    <img src="Resources/radiologyasistant.png" alt="" class="resource-photo">
+                    <h2>Radiology Assistant</h2>
+                    <p>Educational site of the Radiological Society of the Netherlands</p>
+                    <a href="https://radiologyassistant.nl/"  target="_blank">Visit Web</a>
+                </div>
+                
+                
+
+            </div>
+
+        </div>
+        <a href="" class="btn-medtech" type="button">See More</a>
+     </div>
+    <!-- ..............Med Tech........ -->
+     <div id="medtechdiv">
+        <div class="container">
+            <h1 class="sub-title text-middle">Med Tech</h1>
+            <div class="medtech-list">
+                <div class = "medtech">
+                    <img src="MEDTECH/ai-powered-medical-imaging-enhancing-diagnostic-accuracy-and-efficiency-original.jpg" alt="">
+                    <div class="layer">
+                        <h2>AI in Medical Imaging</h2>
+                    <p>Artificial intelligence in enhancing diagnostic accuracy and efficiency in medical imaging.</p>
+                    <a href="https://doi.org/10.3390/diagnostics15121557"  target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                    
+                </div>
+                <div class = "medtech">
+                    <img src="MEDTECH/teaser-telehealth-examples.avif" alt="">
+                    <div class="layer">
+                        <h2>Telemedicine Solutions</h2>
+                    <p>Remote consultations, improving healthcare access for underserved populations.</p>
+                    <a href="https://www.cureus.com/articles/232773-a-comprehensive-review-on-exploring-the-impact-of-telemedicine-on-healthcare-accessibility#!/"  target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                    
+                </div>
+                <div class = "medtech">
+                    <img src="MEDTECH/wearable-devices-.jpg" alt="">
+                    <div class="layer">
+                        <h2>Wearable Health Tech</h2>
+                    <p>Monitor vital signs and promote proactive health management.</p>
+                    <a href="https://www.cureus.com/articles/244512-a-comprehensive-review-on-advancements-in-wearable-technologies-revolutionizing-cardiovascular-medicine#!/"  target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        
+                    </div>
+                    
+                </div>
+                <div class = "medtech">
+                    <img src="MEDTECH/1735004728765.png" alt="">
+                    <div class="layer">
+                        <h2>Robotic Surgery</h2>
+                    <p>Robotic systems in surgical procedures to enhance precision and reduce recovery times.</p>
+                    <a href="https://link.springer.com/article/10.1007/s11701-025-02485-0"  target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        
+                    </div>
+                    
+                </div>
+                <div class = "medtech">
+                    <img src="MEDTECH/GettyImages-1259076312.avif" alt="">
+                    <div class="layer">
+                        <h2>3D Printing in Medicine</h2>
+                    <p>create customized medical implants and prosthetics.</p>
+                    <a href="https://www.researchgate.net/publication/390266659_3D_printing_in_prosthetics_implants_and_scaffolds_A_Review"  target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        
+                    </div>
+                    
+                </div>
+                <div class = "medtech">
+                    <img src="MEDTECH/Utilizing-Big-Data-Analytics-to-improve-Logistics-and-Supply-Chain-Management-.png" alt="">
+                    <div class="layer">
+                        <h2>Health Data Analytics</h2>
+                    <p>Utilizing big data and analytics to improve patient outcomes.</p>
+                    <a href="https://www.researchgate.net/publication/334073759_Big_Data_Analytics_for_Improved_Care_Delivery_in_the_Healthcare_Industry"  target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+      <a href="" class="btn-medtech" type="button">See More</a>
+
+     </div>
+     <!-- .........contact........ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <a href="mailto:jimisyangbo@mmciom.edu.np?subject=Hello&body=I want to get in touch" class="hehecontactme" id="emailid"><i class="fa-solid fa-envelope"></i> jimisyangbo@mmciom.edu.np</a><br>
+                    <a href="tel:+9779823843074" class="hehecontactme"><i class="fa-solid fa-phone"></i> 9823843074</a>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/drjimi8848/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="" target="_blank"><i class="fa-brands fa-researchgate"></i></a>
+                        <a href="https://orcid.org/0009-0004-2725-5553" target="_blank"><i class="fa-brands fa-orcid"></i></a>
+                        <a href="https://www.youtube.com/@Dr_jimi8848" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/drjimi8848.86" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/drjimi8848.86/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://x.com/Dr_jimi8848" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://github.com/meejeeio" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <a href="IMAGES/bitcoin.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name='submit-to-google-sheet'>
+                        <input type="text"  name="Name" placeholder="Enter Your Full Name" required>
+                        <input type="email"  name="Email" placeholder="Enter Your Email Address" required>
+                        <textarea  name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2 btn3">Submit</button>
+
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Jimi Syangbo</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwz6-EuvApe_KBq4ISpde7KjhldU7ORzT0SukQRZxHOe0slHXsE50dkD3dIJQq7jWRD/exec';
+  const form = document.forms['submit-to-google-sheet'];
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully";
+        setTimeout(function(){
+            msg.innerHTML = "";
+        },5000);
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
