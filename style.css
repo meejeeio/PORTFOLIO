@@ -197,18 +197,19 @@ nav ul li a:hover::after{
     }
 /* Youtube */
 /* Full-height section */
-    header, footer {
-      text-align: center;
-      padding: 20px;
+     .youtube{
+        height: auto;
+        background: linear-gradient(135deg, #020202, #57a8ea);
     }
-
-    /* Full-height section */
+    .ytjimi{
+        padding-top: 40px;
+    }
     section.video-section {
-      height: 100vh; /* Full viewport height */
+      height: 80vh; /* Full viewport height */
       display: flex;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(135deg, #020202, #57a8ea);
+      
       padding: 30px;
       animation: fadeIn 1.2s ease-in-out;
     }
@@ -276,6 +277,34 @@ nav ul li a:hover::after{
     @keyframes fadeUp {
       from { transform: translateY(30px) scale(0.95); opacity: 0; }
       to { transform: translateY(0) scale(1); opacity: 1; }
+    }
+   @media (max-width: 768px) {
+      section.video-section {
+        height: auto; /* Allow scrolling */
+        padding: 20px;
+      }
+
+      .video-grid {
+        grid-template-columns: 1fr; /* One per row */
+        gap: 15px;
+      }
+
+      .video {
+        border-radius: 10px;
+        animation: fadeUp 0.7s ease forwards;
+      }
+
+      .video iframe {
+        transition: transform 0.3s ease;
+      }
+
+      /* Subtle hover for mobile tap feel */
+      .video:hover iframe {
+        transform: scale(1.03);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+      }
+
+      
     }
 /* ...........Resources............. */
 #resources{
