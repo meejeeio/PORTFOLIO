@@ -96,7 +96,7 @@ nav ul li a:hover::after{
 }
 #aboutmedetails{
     text-align: justify;
-    font-size: 38px;
+    font-size: 30px;
     
 }
 .sub-title{
@@ -110,7 +110,7 @@ nav ul li a:hover::after{
 }
 .tab-links{
     margin-right: 50px;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
