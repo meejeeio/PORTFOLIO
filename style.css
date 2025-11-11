@@ -634,6 +634,27 @@ nav ul .fas{
     color: #059432;
     font-size: 18px;
 }
+.services-list{
+   
+  padding: 0;
+ 
+    
+}
+.medtech-list{
+     
+  padding: 0px;
+ 
+    
+
+}
+.social-icons a {
+   
+    font-size: 17px;
+    
+}
+
+
+
     
 .contact-left, .contact-right{
     flex-basis: 100%;
@@ -645,17 +666,15 @@ nav ul .fas{
     font-size: 14px;
 }
 #emailid{
-    font-size: 20px;
+    font-size: 19px;
 }
 
 
 }
-
-#msg{
-    color: #61b752;
-    margin-top: -5px;
-    display: block;
+.contact-left .hehecontactme {
+    font-size:17px;
 }
+
 
 /* @media (max-width: 768px){
     .header-text{
