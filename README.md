@@ -1,4 +1,4 @@
-# 🌐 Jimi Syangbo — Personal Portfolio Website
+
 
 **Website:** [https://jimisyangbo.com.np](https://jimisyangbo.com.np)  
 **Author:** Jimi Syangbo  
@@ -6,14 +6,6 @@
 **Type:** Personal Academic & Professional Portfolio  
 **Tech Stack:** HTML • CSS • JavaScript • Bootstrap • Flask (optional backend integration)  
 
----
-
-## 🧭 Overview
-
-This is the official personal website of **Jimi Syangbo**, a dedicated MBBS student at **Maharajgunj Medical Campus, Institute of Medicine (IOM)**, studying under a **full government scholarship**.  
-The website serves as an online portfolio to showcase his educational journey, professional achievements, web and medical technology projects, and his mission to promote accessible healthcare and modern medical learning.
-
----
 
 ## 🎓 Education
 
@@ -65,42 +57,6 @@ Includes helpful tools and links:
 
 ---
 
-## 📄 Download
-- **Curriculum Vitae (CV):** Available on the website’s “About” or “Contact” section.
-
----
-
-## 📞 Contact
-
-**Email:** [email protected]  
-**Phone:** +977-9823843074  
-**Location:** Kathmandu, Nepal  
-
----
-
-## ⚙️ Future Plans
-
-- Integrate dynamic blog and publication updates using Flask or Django.  
-- Add multilingual support (English, Nepali, Tamang).  
-- Build an AI-based interactive medical learning section.  
-- Improve accessibility and SEO optimization.  
-
----
-
-## 🪶 License
-
-This project is licensed under the **MIT License**.  
-Feel free to reuse or modify the design for personal portfolios, with credit to [jimisyangbo.com.np](https://jimisyangbo.com.np).
-
----
-
-### ⭐ Acknowledgements
-
-- **Institute of Medicine (IOM)** — for academic and research opportunities  
-- **Tamang Doctor Society Nepal** — for collaboration and inspiration  
-- **Global Surgical Simulation Network (GSSN)** — for promoting global surgical education  
-
----
 
 **© 2025 Jimi Syangbo. All rights reserved.**
 
