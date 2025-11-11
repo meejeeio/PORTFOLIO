@@ -4,7 +4,7 @@
 **Author:** Jimi Syangbo  
 **Domain:** jimisyangbo.com.np  
 **Type:** Personal Academic & Professional Portfolio  
-**Tech Stack:** HTML • CSS • JavaScript • Bootstrap • Flask (optional backend integration)  
+
 
 
 ## 🎓 Education
