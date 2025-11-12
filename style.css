@@ -647,6 +647,8 @@ nav ul .fas{
     
 
 }
+#medtechdiv #resources{
+    display: none;}
 .social-icons a {
    
     font-size: 24px;
